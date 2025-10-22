@@ -1,0 +1,11 @@
+exam-simulator/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   ├── faulty-connection.jpg
+│   └── ip-rating-symbol.png
+├── exams/
+│   ├── 2391.json
+│   ├── bs7671.json
+│   └── am2.json

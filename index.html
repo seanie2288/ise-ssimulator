@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="header">
+    <img src="images/logo.png" alt="ISE Learning Logo" id="logo" />
+    <h1>ISE Learning Exam Simulator</h1>
+  </header>
+
+  <div id="app">
+    <label for="exam-select">Choose an exam:</label>
+    <select id="exam-select">
+      <option value="">-- Select --</option>
+      <option value="2391">2391 Inspection & Testing</option>
+      <option value="bs7671">BS 7671 Wiring Regulations</option>
+      <option value="am2">AM2 Assessment</option>
+    </select>
+
+    <div id="timer">Time Left: <span id="time">--:--</span></div>
+    <div id="question-container"></div>
+    <button id="submit-btn" style="display:none;">Submit</button>
+    <div id="result"></div>
+  </div>
+
+  <footer id="footer">
+    <p>&copy; 2025 ISE Learning. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
